@@ -1,0 +1,80 @@
+.container {
+    background: #333;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .synth {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -185px;
+    margin-left: -400px;
+    width: 800px;
+    height: 320px;
+    background: #0d0d0d;
+    border-radius: 10px;
+  }
+  
+  .settings {
+    width: 760px;
+    height: 50px;
+    background: silver;
+    position: absolute;
+    top: 8%;
+    left: 2.75%;
+    border-radius: 3px;
+  }
+  
+  .keys {
+    pointer-events: auto;
+    position: absolute;
+    bottom: 0;
+    left: 7%;
+    right: 7%;
+    height: 150px;
+    background: white;
+    border-radius: 6px 6px 0 0;
+  }
+  
+  .white {
+    width: calc(100% / 14);
+    height: 100%;
+    background: white;
+    float: left;
+    z-index: 15;
+    -webkit-box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.75);
+    &:first-child {
+      border-radius: 6px 0 3px 3px;
+    }
+    &:last-child {
+      border-radius: 0 6px 3px 3px;
+    }
+  }
+  
+  .black {
+    position: relative;
+    width: 23px;
+    height: 65%;
+    margin-left: -13px;
+    margin-right: -13px;
+    z-index: 20;
+    float: left;
+    box-shadow: -1px -1px 2px rgba(255, 255, 255, 0.2) inset,
+      0 -5px 2px 3px rgba(0, 0, 0, 0.6) inset, 0 2px 4px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(45deg, #222 0%, #555 100%);
+  }
+  
+  .black:active {
+    box-shadow: -1px -1px 2px rgba(255, 255, 255, 0.2) inset,
+      0 -2px 2px 3px rgba(0, 0, 0, 0.6) inset, 0 1px 2px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(left, #444 0%, #222 100%);
+  }
+  
