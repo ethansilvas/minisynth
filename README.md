@@ -1,6 +1,8 @@
 # minisynth
 A two octave mini synth keyboard created using the HTML web audio API. 
 
+<img width="949" alt="Screen Shot 2019-03-22 at 11 11 55 PM" src="https://user-images.githubusercontent.com/22532512/54862438-1043f400-4cf8-11e9-977f-beba0c462ae5.png">
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
